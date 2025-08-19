@@ -1,0 +1,91 @@
+@import "tailwindcss";
+:root {
+  --bg: #f3f5f7;
+  --card: #111827;
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+  --accent: #22d3ee;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: system-ui, Arial;
+  background: var(--bg);
+  color: var(--text);
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+}
+h1,
+h2,
+h3 {
+  margin: 0 0 12px;
+}
+.card {
+  background: var(--card);
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 12px 0;
+}
+.row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+input,
+select,
+button {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #374151;
+  background: #0b1324;
+  color: var(--text);
+}
+button {
+  cursor: pointer;
+}
+button.primary {
+  background: linear-gradient(90deg, #06b6d4, #3b82f6);
+  border-color: transparent;
+}
+.badge {
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid #374151;
+  font-size: 12px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+th,
+td {
+  border-bottom: 1px solid #1f2937;
+  padding: 10px 8px;
+  text-align: left;
+  font-size: 14px;
+}
+.controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer {
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 16px;
+
+}
+header{
+    background: #161515;
+    color: var(--text);
+    
+    
+}
