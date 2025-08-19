@@ -119,7 +119,7 @@ export default function App() {
           Nhật, Indonesia ↔ Việt Nam
         </p>
         <p className="mt-2 text-lg italic">
-          👨‍💻 Lập trình viên: Đặng Nguyễn Vũ Hoàng
+          👨‍💻 Lập trình viên: <a href="https://www.facebook.com/angnguyenvuhoang.2025">Đặng Nguyễn Vũ Hoàng</a> 
         </p>
       </footer>
     </div>
