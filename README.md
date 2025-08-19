@@ -24,7 +24,7 @@ Tạo file `.env` ở thư mục gốc:
 VITE_API_URL=https://YOUR-MOCKAPI-ID.mockapi.io/orders
 ```
 
-> Nếu không tạo `.env`, app sẽ dùng giá trị mặc định ở `src/services/orderService.js` (hãy sửa trực tiếp URL đó cho nhanh).
+> Nếu không tạo `.env`, app sẽ dùng giá trị mặc định ở `src/services/orderService.js`.
 
 ## 3) Chức năng
 - ➕ Tạo đơn hàng (customer, product, price)
@@ -39,4 +39,3 @@ VITE_API_URL=https://YOUR-MOCKAPI-ID.mockapi.io/orders
 - Axios gọi MockAPI
 - CSS thuần (1 file)
 
-Chúc bạn demo thuận lợi! ✨
